@@ -1,0 +1,529 @@
+*{
+    margin: 0%;
+    padding: 0%;
+  
+}
+@font-face {
+    font-family: best;
+    src: url(VivaKaiva-Bold.otf);
+}
+.container-fluid{
+   background-color: black;
+  
+}
+.container-fluid img{
+    width: 170px;
+    height: 100px;
+}
+#navbar{
+    width: 100%;
+    background-color: black;
+    
+}
+
+#navbar a{
+    color: white;
+  padding-left: 50px;
+  font-size: 20px;
+  font-family: maha;
+ 
+
+}
+#main{
+    background-color: black;
+}
+
+#navbar span{
+    color: white;
+
+}
+#burger{
+   width:  95%;
+    height: 100vh;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+#burger img{
+    width:  100%;
+    height: 100vh;
+}
+@media screen and (max-width:700px) {
+  #burger img{
+    width: 100%;
+    object-fit: contain;
+    object-position:top;
+   background-color: none;
+  margin-left: -40px;
+  }
+  #burger{
+    width: 100%;
+    height: 130px;
+  }
+   #main #deals{
+   width: 95%;
+   margin-left: 10px;
+   border-radius: 5px;
+  }
+  #main .footer1{
+    width: 95%;
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+  #main #beef{
+    width: 95%;
+    margin-left: 10px;
+    border-radius: 5px;
+   }
+   #main #fries{
+    width: 95%;
+    margin-left: 10px;
+    border-radius: 5px;
+   }
+  #main #deals h1{
+     font-size: 18vw;
+  }
+   #deals #cards,#beef #card,#fries .morecard{
+    flex-wrap: wrap;
+  }
+  #cards #card1,#beef #card5,.morecard #card9{
+    width: 48%;
+    height: 330px;
+    border-radius: 5px;
+   }
+   #cards #card2,#beef #card6,.morecard #card10{
+    width: 48%;
+    border-radius: 5px;
+    height: 330px;
+
+   } #cards #card3 ,#beef #card7,.morecard #card11{
+    width: 48%;
+    border-radius: 5px;
+    height: 330px;
+    margin-top: 4%;
+
+   }
+   #cards #card4,#beef #card8 ,.morecard #card12{
+    width: 48%;
+    border-radius: 5px;
+    height: 330px;
+    margin-top: 4%;
+   }
+   #cards #card1 img, #cards #card2 img, #cards #card3 img, #cards #card4 img, #beef #card5 img,#beef #card6 img, #beef #card7 img, #beef #card8 img, #fries #card9 img, #fries #card10 img, #fries #card11 img, #fries #card12 img{
+    width: 95%;
+    height: 170px;
+    margin-left: 2%;
+    margin-top: 2%;
+   }
+   #cards #card1 h1,#cards #card2 h1,#cards #card3 h1,#cards #card4 h1,#beef #card5 h1,#beef #card6 h1,#beef #card7 h1,#beef #card8 h1,#card9 h1,#card11 h1 ,#card12 h1{
+    font-size: 17px;
+    font-weight: bold
+   }
+   .main{
+    width: 100%;
+    height: 100vh;
+   }
+   .main #video{
+    width: 100%;
+    height: 100vh;
+   }
+    #video video{
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
+    margin-right: 5%;
+    object-position: top;
+
+   }
+   .about{
+    flex-direction: column;
+ 
+
+}
+.about .about-text{
+    margin-top: -90%;
+}
+.about .about-text h1{
+    font-size: 7vw;
+    
+}
+.about .about-text h2{
+    font-size: 10vw;
+    margin-left: -5%;
+}
+.about .about-text p{
+    font-size: 5vw;
+    padding-top: 3%;
+    margin-left: -5%;
+    color: #140801;
+}
+.about .about-img{
+    margin-left: -15%;
+}
+.contact {
+    width: 100%;
+   height: 130px;
+   position: absolute;
+}
+.contact img{
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
+    object-position: top;
+    position: absolute;
+}
+.contact2{
+  display: none;
+}
+#main4{
+    width: 100%;
+    /* background-color: black; */
+}
+.con{
+    flex-direction: column;
+}
+  .con #con3,.con #con4 ,.con #con5{
+    width: 95vw;
+    border-radius: 5px;
+    height: 5vh;
+  margin-left: -105%;
+    
+}
+.con #con3{
+    margin-top: 80%;
+}
+.con #con6{
+  width: 95vw;
+  border-radius: 5px;
+  height: 10vh;
+  margin-left: -105%;
+
+  
+}.con  button{
+    width: 95vw;
+    height: 10%;
+    margin-left: -95%;
+    border-radius: 5px;
+}
+.con h1{
+    visibility: hidden;
+}
+
+.con h1{
+    text-align: center;
+    padding-left: -130%;
+    
+}
+}
+
+#deals{
+    margin-top: 20px;
+    width: 97%;
+    height: 100vh;
+    background-color:#97bc9b;
+    margin-left: 35px;
+    border-radius: 5px;
+    background-image: linear-gradient(#97bc9b, #93b196);
+}
+#fries{
+    margin-top: 20px;
+    width: 97%;
+    height: 100vh;
+    margin-left: 35px;
+    border-radius: 5px;
+    background-image: linear-gradient(#d3ca7a, #ecdf64);
+}
+#deals h1,#fries h1{
+    font-family: best;
+    text-align: center;
+    font-size: 10vw;
+}
+#cards,#card{
+display: flex;
+justify-content: space-evenly;
+}
+#card1{
+   width: 23%;
+   height: 425px;
+   background-color: #ffffff;
+   border-radius: 5px;
+}
+#card5{
+    width: 23%;
+    height: 425px;
+    background-color: #ffffff;
+    border-radius: 5px;
+ }
+ #card9{
+    width: 23%;
+    height: 425px;
+    background-color: #d3ca7a;
+    border-radius: 5px;
+ }
+#card2{
+    width: 23%;
+   border-radius: 5px;
+   height: 425px;
+    background-color: #ffffff;
+}
+#card10{
+    width: 23%;
+   border-radius: 5px;
+   height: 425px;
+    background-color: #d3ca7a;
+}
+#card6{
+    width: 23%;
+   border-radius: 5px;
+   height: 425px;
+    background-color: #ffffff;
+}
+#card3{
+   width: 23%;
+   border-radius: 5px;
+   height: 425px;
+   background-color: #ffffff;
+
+}
+#card7{
+    width: 23%;
+    border-radius: 5px;
+    height: 425px;
+    background-color: #ffffff;
+ 
+ }
+#card4{
+    width: 23%;
+   border-radius: 5px;
+   height: 425px;
+    background-color: #ffffff;
+
+}
+#card11{
+    width: 23%;
+   border-radius: 5px;
+   height: 425px;
+    background-color:#d3ca7a;
+}
+#card8{
+    width: 23%;
+   border-radius: 5px;
+   height: 425px;
+    background-color: #ffffff;
+}
+#card12{
+    width: 23%;
+   border-radius: 5px;
+   height: 425px;
+    background-color: #d3ca7a;
+
+}
+#beef h1{
+    font-family: best;
+    text-align: center;
+    font-size: 10vw;
+}
+#card1 img,#card2 img,#card3 img,#card4 img,#card5 img,#card6 img,#card7 img,#card8 img,#card9 img,#card10 img,#card11 img,#card12 img{
+    width: 95%;
+    height: 260px;
+    margin-left: 7px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+#card1 h1,#card3 h1,#card2 h1,#card4 h1,#card5 h1,#card6 h1,#card7 h1,#card8 ,#card9 h1,#card10 h1,#card11 h1,#card12 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+#card1 h2,#card2 h2,#card3 h2,#card4 h2,#card5 h2,#card6 h2,#card7 h2,#card8 ,#card9 h2,#card10 h2,#card11 h2,#card12 h2{
+    font-family: best;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 3px;
+}
+#card1 button,#card2 button,#card3 button,#card4 button,#card5 button,#card6 button,#card7 button,#card8 button,#card9 button,#card10 button,#card11 button,#card12 button{
+    background-color: #7deb88;
+    width: 90%;
+    height: 40px;
+    border: none;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+#beef{
+    width: 97%;
+    height: 100vh;
+    background-color: #fbeddb;
+    margin-top: 20px;
+    margin-left: 35px;
+    border-radius: 5px;
+}
+#beef #card5,#beef #card6,#beef #card7,#beef #card8 {
+    background-color: black;
+    color: white;
+}
+#beef #card button{
+    background-color: white;
+    color: black;
+}
+.morecard{
+    display: flex;
+    justify-content: space-evenly;
+}
+#card8 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+#card8 h2{
+    font-family: best;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 3px;
+}
+#card8 button{
+    background-color: white;
+    width: 90%;
+    height: 40px;
+    border: none;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+#video{
+    width: 100%;
+    height: 100vh;
+}
+video{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+#card9 button,#card10 button ,#card11 button,#card12 button{
+  background-color: #ecdf64;
+  color: black;
+}
+.text-center text-lg-start bg-body-tertiary text-muted  a{
+    background-color: #281d17;
+    color: white;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.about-text{
+    margin-left: 50px;
+}
+.about-text h1{
+      font-family: best;
+      font-size: 60px;
+      color: #4e2008;
+}
+.about-text h2{
+    font-family: best;
+    font-size: 55px;
+    color: #8b370a;
+}
+.about-text p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 0.9;
+}
+.about-img img{
+    width: 500px;
+    object-fit: cover;
+    margin-top: 50px;
+}
+
+.contact{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+.contact img{
+    width: 100%;
+    height: 100vh;
+}
+.contact2{
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+    position: relative;
+}
+.contact2 h1{
+    font-size: 80px;
+    text-align: center;
+    padding-top:300px;
+    color: white;
+    font-family: best;
+}
+#main4{
+    width: 100%;
+   /* background-color: black; */
+}
+.con{
+    display: flex;
+}
+#con3 {
+    margin-top: 20px;
+   width: 330px;
+   height: 37px;
+   border: 1px solid rgba(0, 0, 0, 0.493);
+}
+#con4{
+    width: 330px;
+    height: 37px;
+    margin-top: 20px;
+   border: 1px solid rgba(0, 0, 0, 0.493);
+
+ }
+ #con5 {
+    width: 330px;
+    height: 37px;
+    border: 1px solid rgba(0, 0, 0, 0.493);
+    margin-top: 20px;
+ }
+ #con6 {
+    width: 330px;
+   border: 1px solid rgba(0, 0, 0, 0.493);
+   height: 84px;
+    margin-top: 20px;
+ }.con1 h2{
+    font-size: 40px;
+
+ }
+ .con1{
+    margin-left: 200px;
+    margin-top: 100px;
+ }
+ .con1 button{
+    width: 330px;
+    height: 37px;
+    background-color: #ff8300;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+ }
+ ::placeholder{
+       color: black;
+ }
+ .con2{
+    margin-left: 100px;
+    margin-top: 100px;
+ }
+ .con h2{
+    font-size: 40px;
+ }
+ .con2 h3{
+    font-size: 20px ;
+    padding-top: 20px;
+ }
+ .con2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+ }
